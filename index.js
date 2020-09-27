@@ -6,7 +6,7 @@ function testFunc() {
 
 function superbowlWin(arr) {
   function yearWon(arr) {
-    return arr.result === "W"
+    (arr.result === "W").year
   }
-  return arr.find(yearWon).year
+  return arr.find(yearWon)
 }
