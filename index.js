@@ -8,5 +8,5 @@ function superbowlWin(arr) {
   function yearWon(arr) {
     return arr.result === "W"
   }
-  return arr.find(yearWon)
+  return arr.find(yearWon).year
 }
