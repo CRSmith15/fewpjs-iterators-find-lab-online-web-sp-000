@@ -5,6 +5,8 @@ function testFunc() {
 }
 
 function superbowlWin(arr) {
-  let yearWon = arr.result === 'Won'
-  console.log(yearWon)
+  function yearWon(arr) {
+    return arr.result === "Won"
+  }
+  return arr.find(yearWon)
 }
